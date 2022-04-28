@@ -10,6 +10,12 @@ h2{
     background-color: darkred;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-variant: small-caps;
+    
+}
+
+h2:hover{
+    transform: rotate(5deg);
+    background-image: linear-gradient(darkred, red);
 }
 
 .nosotros{
@@ -41,6 +47,10 @@ h2{
 .nrigth p{
     text-align: justify;
     color: #222;
+}
+
+.nrigth:hover{
+    background-image: linear-gradient(aqua, green);
 }
 
 .galeria{
